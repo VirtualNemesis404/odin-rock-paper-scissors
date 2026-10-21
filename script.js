@@ -17,3 +17,10 @@ function getComputerChoice(){
 
 let computerChoice = getComputerChoice()
 console.log("Computer: "+computerChoice)
+
+function getHumanChoice(){
+    return prompt("Enter Rock, Paper or Scissors:");
+}
+
+let humanChoice = getHumanChoice()
+console.log("Human: "+humanChoice)
