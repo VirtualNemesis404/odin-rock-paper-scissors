@@ -1,3 +1,6 @@
+let humanScore = 0
+let computerScore = 0
+
 function getComputerChoice(){
     let choice
     let number =  Math.round(Math.random() * 2)
